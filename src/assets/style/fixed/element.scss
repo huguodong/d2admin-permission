@@ -1,0 +1,179 @@
+// 卡片阴影定制
+.el-card {
+  &.is-always-shadow {
+    box-shadow: 0 0 8px 0 rgba(232,237,250,.6), 0 2px 4px 0 rgba(232,237,250,.5);
+  }
+  &.is-hover-shadow {
+    &:hover {
+      box-shadow: 0 0 8px 0 rgba(232,237,250,.6), 0 2px 4px 0 rgba(232,237,250,.5);
+    }
+  }
+}
+
+
+
+// 菜单
+.el-menu--horizontal {
+  border-bottom: none !important;
+}
+
+
+
+// tab
+.el-tabs__item:focus.is-active.is-focus:not(:active) {
+  box-shadow: none !important;
+}
+
+
+
+// 更窄的按钮
+.el-button--mini {
+  &.is-thin {
+    +.is-thin {
+      margin-left: 4px;
+    }
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+// 在 d2-bar 上默认使用更窄的按钮
+.d2-bar {
+  .el-button--mini {
+    +.el-button--mini {
+      margin-left: 4px;
+    }
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .el-button-group {
+    .el-button--mini {
+      +.el-button--mini {
+        margin-left: 0px;
+      }
+    }
+  }
+}
+
+
+
+// 边距更小的分割线
+.el-divider {
+  &.el-divider--mini {
+    margin: 12px 0;
+  }
+}
+
+
+
+// 表格在占满 spacious 模式的 d2-container 时特殊样式
+.is-spacious {
+  .el-table::before {
+    background-color: #FFF;
+  }
+  .el-table__fixed-right::before, .el-table__fixed-left::before, .el-table__fixed::before {
+    height: 0px;
+  }
+  .el-table--border {
+    border: none;
+    th {
+      &:last-child {
+        border-right: none;
+      }
+    }
+    td {
+      &:last-child {
+        border-right: none;
+      }
+    }
+    &::after {
+      top: 0;
+      right: 0;
+      width: 0px;
+      height: 100%;
+    }
+  }
+}
+
+
+
+// dialog 贴屏幕顶部
+.el-dialog {
+  &.el-dialog__no-top-border {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+}
+
+
+
+// drawer 容器设置定位方式
+.el-drawer__body {
+  position: relative;
+}
+
+
+
+// d2-search-panel 中的 el-form.is-thin
+.d2-search-panel {
+  .el-form.is-thin {
+    .el-form-item.el-form-item--mini {
+      margin-bottom: 0px;
+      .el-form-item__label {
+        padding-bottom: 0px;
+      }
+    }
+  }
+  .el-collapse-item__arrow {
+    display: none;
+  }
+}
+
+
+
+// 表格排序符号缩小
+.el-table.el-table--mini {
+  .caret-wrapper {
+    height: 22px;
+    top: -1px;
+    .sort-caret.ascending {
+      top: 0px;
+    }
+    .sort-caret.descending {
+      bottom: 0px;
+    }
+  }
+}
+
+
+
+// el-select 多选模式下 tag 样式调整
+.el-select.el-select--mini {
+  .el-tag.el-tag--mini {
+    i.el-tag__close.el-icon-close {
+      right: -4px;
+    }
+  }
+}
+
+
+
+// 表格内的 el-image 垂直居中
+.el-table {
+  .el-image {
+    vertical-align: middle;
+  }
+}
+
+
+
+// 美化表格中图片预览
+.el-table {
+  .el-image-viewer__btn {
+    color: #FFF;
+    opacity: 1;
+  }
+}
+
+:focus {
+  outline: none;
+}

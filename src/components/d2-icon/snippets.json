@@ -1,0 +1,10 @@
+{
+  "d2-icon": {
+		"scope": "vue,vue-html",
+		"prefix": "component d2-icon",
+		"body": [
+			"<d2-icon name=\"${1:github}\"/>"
+		],
+		"description": "# D2Admin 内置组件\n# 图标 <d2-icon>\n# 文档 https://d2.pub/zh/doc/d2-admin/component/icon.html"
+	}
+}

@@ -1,0 +1,122 @@
+{
+  "d2-container": {
+		"scope": "vue,vue-html",
+		"prefix": "component d2-container",
+		"body": [
+			"<d2-container>",
+			"  <template slot=\"header\">Header</template>",
+			"    ${1:content}",
+			"  <template slot=\"footer\">Footer</template>",
+			"</d2-container>"
+		],
+		"description": "# D2Admin 内置组件\n# 布局组件 <d2-container>\n# 文档 https://d2.pub/zh/doc/d2-admin/component/container.html"
+	},
+	"d2-container card": {
+		"scope": "vue,vue-html",
+		"prefix": "component d2-container card",
+		"body": [
+			"<d2-container type=\"card\">",
+			"  <template slot=\"header\">Header</template>",
+			"    ${1:content}",
+			"  <template slot=\"footer\">Footer</template>",
+			"</d2-container>"
+		],
+		"description": "# D2Admin 内置组件\n# 布局组件 <d2-container> 卡片形\n# 文档 https://d2.pub/zh/doc/d2-admin/component/container.html"
+	},
+	"d2-container ghost": {
+		"scope": "vue,vue-html",
+		"prefix": "component d2-container ghost",
+		"body": [
+			"<d2-container type=\"ghost\">",
+			"  <template slot=\"header\">Header</template>",
+			"    ${1:content}",
+			"  <template slot=\"footer\">Footer</template>",
+			"</d2-container>"
+		],
+		"description": "# D2Admin 内置组件\n# 布局组件 <d2-container> 隐形模式\n# 文档 https://d2.pub/zh/doc/d2-admin/component/container.html"
+	},
+	"d2-container bs": {
+		"scope": "vue,vue-html",
+		"prefix": "component d2-container bs",
+		"body": [
+			"<d2-container better-scroll>",
+			"  <template slot=\"header\">Header</template>",
+			"    ${1:content}",
+			"  <template slot=\"footer\">Footer</template>",
+			"</d2-container>"
+		],
+		"description": "# D2Admin 内置组件\n# 布局组件 <d2-container> 滚动优化\n# 文档 https://d2.pub/zh/doc/d2-admin/component/container.html"
+	},
+	"d2-container card bs": {
+		"scope": "vue,vue-html",
+		"prefix": "component d2-container card bs",
+		"body": [
+			"<d2-container type=\"card\" better-scroll>",
+			"  <template slot=\"header\">Header</template>",
+			"    ${1:content}",
+			"  <template slot=\"footer\">Footer</template>",
+			"</d2-container>"
+		],
+		"description": "# D2Admin 内置组件\n# 布局组件 <d2-container> 卡片形 滚动优化\n# 文档 https://d2.pub/zh/doc/d2-admin/component/container.html"
+	},
+	"d2-container ghost bs": {
+		"scope": "vue,vue-html",
+		"prefix": "component d2-container ghost bs",
+		"body": [
+			"<d2-container type=\"ghost\" better-scroll>",
+			"  <template slot=\"header\">Header</template>",
+			"    ${1:content}",
+			"  <template slot=\"footer\">Footer</template>",
+			"</d2-container>"
+		],
+		"description": "# D2Admin 内置组件\n# 布局组件 <d2-container> 隐形模式 滚动优化"
+	},
+	"d2-container spacious": {
+		"scope": "vue,vue-html",
+		"prefix": "component d2-container spacious",
+		"body": [
+			"<d2-container spacious>",
+			"  <template slot=\"header\">Header</template>",
+			"    ${1:content}",
+			"  <template slot=\"footer\">Footer</template>",
+			"</d2-container>"
+		],
+		"description": "# D2Admin 内置组件\n# 布局组件 <d2-container> 更大的主体空间\n# 文档 https://d2.pub/zh/doc/d2-admin/component/container.html"
+	},
+	"d2-container card spacious": {
+		"scope": "vue,vue-html",
+		"prefix": "component d2-container card spacious",
+		"body": [
+			"<d2-container type=\"card\" spacious>",
+			"  <template slot=\"header\">Header</template>",
+			"    ${1:content}",
+			"  <template slot=\"footer\">Footer</template>",
+			"</d2-container>"
+		],
+		"description": "# D2Admin 内置组件\n# 布局组件 <d2-container> 卡片形 更大的主体空间\n# 文档 https://d2.pub/zh/doc/d2-admin/component/container.html"
+	},
+	"d2-container bs spacious": {
+		"scope": "vue,vue-html",
+		"prefix": "component d2-container bs spacious",
+		"body": [
+			"<d2-container better-scroll spacious>",
+			"  <template slot=\"header\">Header</template>",
+			"    ${1:content}",
+			"  <template slot=\"footer\">Footer</template>",
+			"</d2-container>"
+		],
+		"description": "# D2Admin 内置组件\n# 布局组件 <d2-container> 滚动优化 更大的主体空间\n# 文档 https://d2.pub/zh/doc/d2-admin/component/container.html"
+	},
+	"d2-container card bs spacious": {
+		"scope": "vue,vue-html",
+		"prefix": "component d2-container card bs spacious",
+		"body": [
+			"<d2-container type=\"card\" better-scroll spacious>",
+			"  <template slot=\"header\">Header</template>",
+			"    ${1:content}",
+			"  <template slot=\"footer\">Footer</template>",
+			"</d2-container>"
+		],
+		"description": "# D2Admin 内置组件\n# 布局组件 <d2-container> 卡片形 滚动优化 更大的主体空间\n# 文档 https://d2.pub/zh/doc/d2-admin/component/container.html"
+	}
+}

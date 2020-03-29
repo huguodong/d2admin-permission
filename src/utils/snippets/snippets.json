@@ -1,0 +1,10 @@
+{
+  "utils": {
+		"scope": "javascript,typescript,vue,vue-html",
+		"prefix": "utils",
+		"body": [
+			"import utils from '@/utils'"
+		],
+		"description": "# D2Admin 内置工具包 | 导入工具包\n# 文档 https://d2.pub/zh/doc/d2-admin/util"
+	}
+}

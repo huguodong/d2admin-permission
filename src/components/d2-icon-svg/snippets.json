@@ -1,0 +1,10 @@
+{
+  "d2-icon-svg": {
+		"scope": "vue,vue-html",
+		"prefix": "component d2-icon-svg",
+		"body": [
+			"<d2-icon-svg name=\"${1:d2-admin}\"/>"
+		],
+		"description": "# D2Admin 内置组件\n# SVG 图标 <d2-icon-svg>\n# 文档 https://d2.pub/zh/doc/d2-admin/component/icon-svg.html"
+	}
+}

@@ -1,0 +1,34 @@
+{
+  "utils cookies set": {
+		"scope": "javascript,typescript,vue,vue-html",
+		"prefix": "utils cookies set",
+		"body": [
+			"utils.cookies.set('${1:name}', ${2:'value'})"
+		],
+		"description": "# D2Admin 内置工具包 | utils.cookies\n# 设置 cookie\n# 文档 https://d2.pub/zh/doc/d2-admin/util/#util-cookies-set"
+	},
+	"utils cookies get": {
+		"scope": "javascript,typescript,vue,vue-html",
+		"prefix": "utils cookies get",
+		"body": [
+			"utils.cookies.get('${1:name}')"
+		],
+		"description": "# D2Admin 内置工具包 | utils.cookies\n# 获取 cookie\n# 文档 https://d2.pub/zh/doc/d2-admin/util/#util-cookies-get"
+	},
+	"utils cookies getAll": {
+		"scope": "javascript,typescript,vue,vue-html",
+		"prefix": "utils cookies getAll",
+		"body": [
+			"utils.cookies.getAll()"
+		],
+		"description": "# D2Admin 内置工具包 | utils.cookies\n# 获取全部 cookie\n# 文档 https://d2.pub/zh/doc/d2-admin/util/#util-cookies-getall"
+	},
+	"utils cookies remove": {
+		"scope": "javascript,typescript,vue,vue-html",
+		"prefix": "utils cookies remove",
+		"body": [
+			"utils.cookies.remove('${1:name}')"
+		],
+		"description": "# D2Admin 内置工具包 | utils.cookies\n# 删除 cookie\n# 文档 https://d2.pub/zh/doc/d2-admin/util/#util-cookies-remove"
+	}
+}
